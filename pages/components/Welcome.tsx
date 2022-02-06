@@ -4,8 +4,14 @@ function Welcome() {
 
 
   return (
-    <div className='text-xl text-center'>
-      Welcome to The World's Simplest Defi Portfolio Tracker
+    <div className='text-center font-bold'>
+
+      <div className='py-10 text-6xl'>
+        <h1>Wallet.CleanUP( )</h1>
+      </div>
+
+      <div className='text-2xl'>Welcome to The World's Simplest Token Garbage Dispenser</div>
+      
     </div>
   )
 }
