@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { useMoralis } from 'react-moralis'
+import ButtonDelete from './components/ButtonDelete';
 import Navbar from './components/Navbar';
 import Tokens from './components/Tokens';
 import Welcome from './components/Welcome';
