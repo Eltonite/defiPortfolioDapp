@@ -4,9 +4,9 @@ import { MoralisProvider } from 'react-moralis'
 
 function MyApp({ Component, pageProps }: AppProps) {
 
-  const serverURL = process.env.NEXT_PUBLIC_SERVER_URL_POLYGON
+  const serverURL = process.env.NEXT_PUBLIC_SERVER_URL
 
-  const appID = process.env.NEXT_PUBLIC_APP_ID_POLYGON
+  const appID = process.env.NEXT_PUBLIC_APP_ID
 
 
   return(
