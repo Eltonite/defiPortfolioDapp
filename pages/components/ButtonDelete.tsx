@@ -1,7 +1,7 @@
 import React from 'react';
 import { useMoralis } from 'react-moralis';
 
-function ButtonDelete(options) {
+function ButtonDelete(options:any) {
 
   const contractOptions = options.options
   console.log(contractOptions)
